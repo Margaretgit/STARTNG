@@ -6,35 +6,34 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
        
         <title>My Resume</title>
-        <link rel="stylesheet" href="CV.css">
+        <link rel="stylesheet" href="CV.css" form.css>
 
     </head>
 
     <body>
-            <div class="header">
+        <div id="header">
         <h1>RESUME</h1>
-        <p>12, TIMOTHY CHINWO STREET, OGBATAI, WOJI, PORT HARCOURT, RIVERS STATE.</p>
+        </div>
 
-                <p>Phone: 08107653607</p>
-
-                <p>E-mail: t.eseimokumo@gmail.com</p>
-
-                <p><b><big>ESEIMOKUMO, TITILAYO MARGARET</big></b></p>
-                <br>
-
-                <img src="https://res.cloudinary.com/dlkawjt37/image/upload/v1566596602/Eseimokumo_Titilayo_Margaret_snkzye.jpg"alt ="My Picture"width: 35px height: 20px/> 
-             </div>
-                <h3><b>SKILL OF PROFILE</b></h3>
-
-            <hr/>
-            <p>A young energetic, hard working, responsible, enthusiastic and Computer science/Statistics graduate with keen quality aptitude excellent ethics.  A fast learner with Managerial and Teaching experiences. A young lady with programmes planning ability, full of potentiality and team player with willingness to take up competence without compromising integrity.</p>
-
-            <h3><b>STATE OF ORIGIN/ LGA</b></h3>
-            <hr/>
-            <p>Bayelsa, Kolokuma/Opokumo</p>
+        <div>
+             <p>12, TIMOTHY CHINWO STREET, OGBATAI, WOJI, PORT HARCOURT, RIVERS STATE.<br> <br>Phone: 08107653607 <br><br>E-mail: t.eseimokumo@gmail.com <br><br><b><big>ESEIMOKUMO, TITILAYO MARGARET</big></b></p>
+             <br>
+        </div>
 
 
-            <h3><b>MARTIAL STATUS</b></h3>
+        <img src="https://res.cloudinary.com/dlkawjt37/image/upload/v1566596602/Eseimokumo_Titilayo_Margaret_snkzye.jpg"alt ="My Picture"width: 35px height: 20px/> 
+
+        <h3><b>SKILL OF PROFILE</b></h3>
+
+        <hr/>
+        <p>A young energetic, hard working, responsible, enthusiastic and Computer science/Statistics graduate with keen quality aptitude excellent ethics.  A fast learner with Managerial and Teaching experiences. A young lady with programmes planning ability, full of potentiality and team player with willingness to take up competence without compromising integrity.</p>
+
+        <h3><b>STATE OF ORIGIN/ LGA</b></h3>
+        <hr/>
+        <p>Bayelsa, Kolokuma/Opokumo</p>
+
+
+        <h3><b>MARTIAL STATUS</b></h3>
             <hr/>
             <p>Married</p>
 
@@ -134,7 +133,38 @@
             <p>Mr. Remi Oyebanji</p>
             <p>ICT Department,</p>
             <p> Bereton Montessori School, Port Harcourt.<p>
-            <br><br
+            
+        
+            <div id="footer">
+            <div class="container">
+                <form action="contact.html" method="POST">
+                        <h4>Contact Here</h4>
+            </div>
+                        <label for="title">Title</label>
+                        <br>
+                        <input  type="text" required name="Title" placeholder="Title">
+                        <br><br>
+                        <label for="fullname">FullName</label>
+                        <br>
+                        <input type="text" required minlength="4" maxlength="20"  id="fname" name="Fullname" placeholder="FullName">
+                        <br><br>
+                        <label for="email">Email</label>
+                        <br>
+                        <input type="email" required id="mail" name="Email" placeholder="Email">
+                        <br><br>
+
+                        <label for="message">Message</label>
+                        <br>
+    <textarea id="message" name="message" placeholder="Type here.." style="height:100px" width: 200%; minlength="20>"></textarea>
+                        <br><br>
+                        <input type="submit" value="Send message">  
+                         
+           </div id="footer">
+
+                </form>
+        </footer>
+
+
 
 
     </body>

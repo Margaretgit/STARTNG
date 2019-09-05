@@ -25,3 +25,67 @@ img{
 li{
     color: blueviolet;
 }
+
+body {
+    background-color: lightblue;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+h2, h3{
+    color: white
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: blueviolet;
+}
+
+img{
+    width: 300px;
+    height: 400px;
+}
+
+li{
+    color: blueviolet;  
+    }
+
+.container{
+    margin-top: 100px;
+    color: red;
+    text-transform: uppercase;
+    text-align: left;
+    }
+.container h4{
+    font-size: 16px;
+    color: #ff0000;
+}
+
+form {
+    margin-top: 0px;
+}
+input
+{
+    width: 400px;
+    height: 30px;
+}
+
+input[type=submit]
+{
+    background: red;
+    border-color: aqua;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 40px;
+    margin-top: 20px;
+}
+input[type=submit]:hover {
+    background-color: black;
+}
+ 
+

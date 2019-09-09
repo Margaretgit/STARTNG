@@ -7,6 +7,8 @@
        
         <title>My Resume</title>
         <link rel="stylesheet" href="CV.css" form.css>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+        <script src="myscript.js"></script>
 
     </head>
 
@@ -132,40 +134,33 @@
 
             <p>Mr. Remi Oyebanji</p>
             <p>ICT Department,</p>
-            <p> Bereton Montessori School, Port Harcourt.<p>
             
-        
+            
             <div id="footer">
-            <div class="container">
-                <form action="contact.html" method="POST">
-                        <h4>Contact Here</h4>
-            </div>
-                        <label for="title">Title</label>
-                        <br>
-                        <input  type="text" required name="Title" placeholder="Title">
-                        <br><br>
-                        <label for="fullname">FullName</label>
-                        <br>
-                        <input type="text" required minlength="4" maxlength="20"  id="fname" name="Fullname" placeholder="FullName">
-                        <br><br>
-                        <label for="email">Email</label>
-                        <br>
-                        <input type="email" required id="mail" name="Email" placeholder="Email">
-                        <br><br>
+                   <form>
+                   <div class="container">
+                          <form action="contact.html" method="POST">
+                          <h4>Contact Me</h4>
+                   </div>
 
-                        <label for="message">Message</label>
-                        <br>
-    <textarea id="message" name="message" placeholder="Type here.." style="height:100px" width: 200%; minlength="20>"></textarea>
-                        <br><br>
-                        <input type="submit" value="Send message">  
-                         
-           </div id="footer">
-
-                </form>
-        </footer>
-
-
-
-
+                   <label for="title">Title</label>
+                   <br>               
+                   <input  type="text" required name="Title" placeholder="Title">                             
+                   <br><br>                             
+                   <label for="fullname">FullName</label>                               
+                   <input type="text" required minlength="4" name="Fullname" placeholder="FullName">                              
+                   <br><br>                        
+                   <label for="email">Email</label>                             
+                   <br>                               
+                   <input type="email" required id="mail" name="Email" placeholder="Email">                               
+                   <br><br>                      
+                   <label for="message">Message</label>                         
+                   <br>       
+                   <textarea id="message" name="message" placeholder="Type here.." style="height:100px" width: 200%; minlength="20>"></textarea>                           
+                   <br><br>                            
+                   <input type="submit" value="Send message">    
+                </form>                                
+             </div id="footer">                
+            
     </body>
 </html>
